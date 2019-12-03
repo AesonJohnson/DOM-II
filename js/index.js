@@ -12,7 +12,14 @@ navLink[3].addEventListener('mouseover', function(){
 
 // click
 const heading = document.querySelector('.logo-heading');
-heading.textContent = "work pls";
+
+heading.addEventListener('click', function(){
+    heading.textContent = "New Title!";
+})
+
+
+
+
 // const headerRotate = document.querySelector('.logo-heading');
 
 // headerRotate.addEventListener('click', function(){

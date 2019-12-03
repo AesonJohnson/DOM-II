@@ -42,8 +42,8 @@ text.addEventListener('keydown', function(){
     text.style.color = 'slategrey';
 })
 
-// select
-const wheelText = document.querySelector('.home');
+// wheel
+const wheelText = document.querySelector('.inverse-content');
 
 wheelText.addEventListener('wheel', function(){
     wheelText.style.color = 'lightblue';

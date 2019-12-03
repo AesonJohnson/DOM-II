@@ -10,4 +10,12 @@ navLink[2].addEventListener('mouseover', function(){
 navLink[3].addEventListener('mouseover', function(){
     navLink[3].style.color = 'yellow';})
 
-const header = document.querySelector('.logo-heading');
+// click
+const heading = document.querySelector('.logo-heading');
+heading.textContent = "work pls";
+// const headerRotate = document.querySelector('.logo-heading');
+
+// headerRotate.addEventListener('click', function(){
+//     headerRotate.style.transform = 'rotateX(180)';
+//     headerRotate.style.transform = 'all 0.5s';
+// })

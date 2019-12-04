@@ -36,11 +36,19 @@ button.addEventListener('dblclick', function(){
 })
 
 // keydown
-const text = document.querySelector('html');
+const keydown = document.querySelector('html');
 
-text.addEventListener('keydown', function(){
-    text.style.color = 'slategrey';
+keydown.addEventListener('keydown', function(){
+    keydown.style.color = 'lightgrey';
 })
+
+// keyup
+const keyup = document.querySelector('html');
+
+keyup.addEventListener('keyup', function(){
+    keyup.style.color = 'slategrey';
+})
+
 
 // wheel
 const wheelText = document.querySelector('.inverse-content');
